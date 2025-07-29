@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 50px;
+
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+p{
+    text-align: justify;
+}
+
+
+
+#cv-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+box-sizing
+
+
+#cv-name{
+    color: red;
+}
+
+
+#apply-role {
+    color:blue
+}
+
+#home-address{
+    color: brown;
+}
+
+/* .education-item .education-name{
+    font-style: italic;
+}
+
+.education-item .education-uni{
+    font-weight: bold;
+} */
+
+/* Cach 2 */
+
+.education-item span:first-child {
+    font-style: italic;
+}
+
+
+
+.education-item span:first-child {
+    font-style: bold;
+}
+
+#basic-info{
+    margin: 0 auto;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 20px
+    justify-content; center;
+    align-items: center;
+}
+
+#basic-info *{
+    display: flex;
+    align-items: center;
+    gap:  10px;
+
+
+}
+#basic-info span{
+    font-size:medium;
+}
